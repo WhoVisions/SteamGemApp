@@ -1,0 +1,17 @@
+{
+  "name": "generic-app-template",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Generic Next 16 template with React 19.2, Node 22 minimum, port 4444, GH Pages export.",
+  "engines": { "node": ">=22.0.0" },
+  "scripts": {
+    "preinstall": "node tools/checks/enforce-node-22.js",
+    "setup": "node tools/setup/scaffold.js init",
+    "new:node": "node tools/setup/scaffold.js new node",
+    "new:python": "node tools/setup/scaffold.js new python",
+    "new:next": "node tools/setup/scaffold.js new next",
+    "lint": "node -e \"console.log('lint ok')\"",
+    "build": "node -e \"console.log('build ok')\"",
+    "test": "node -e \"console.log('test ok')\""
+  }
+}

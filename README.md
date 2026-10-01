@@ -38,3 +38,16 @@ the default base path is set to /hello_next automatically by the build script. C
 
 ## License
 MIT. See LICENSE.
+
+<!-- nougen:fleet-role:begin (generated from NouGenRelay fleet/manifest.json; edit the manifest, not this block) -->
+## Fleet role
+
+| | |
+|---|---|
+| Role | SteamGemApp |
+| Kind | genesis_domain |
+| Status | canonical |
+| Canonical for | steamgemapp |
+| Visibility | public |
+
+<!-- nougen:fleet-role:end -->
